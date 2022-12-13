@@ -1,3 +1,5 @@
+# Exercício Python 012: Faça um algoritmo que leia o preço de um produto
+#e mostre seu novo preço, com 5% de desconto.
 import random
 import time
 
@@ -59,8 +61,16 @@ if tempo >= '5:00' and tempo <= '12:00':
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '2':
         time.sleep(0.8)
@@ -73,8 +83,16 @@ if tempo >= '5:00' and tempo <= '12:00':
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '3':
         time.sleep(0.8)
@@ -87,8 +105,16 @@ if tempo >= '5:00' and tempo <= '12:00':
         time.sleep(2.0)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '4':
         time.sleep(0.8)
@@ -101,8 +127,16 @@ if tempo >= '5:00' and tempo <= '12:00':
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '5':
         time.sleep(0.8)
@@ -115,8 +149,16 @@ if tempo >= '5:00' and tempo <= '12:00':
         if yes_or_no == 's':
             print('você comprou. você teve a melhor escolha possivel!!! proveite bem.')
             print('volte sempre!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '6':
         time.sleep(0.8)
@@ -267,8 +309,16 @@ elif tempo > '12:00' and tempo <= '17:59':
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '2':
         time.sleep(0.8)
@@ -281,8 +331,16 @@ elif tempo > '12:00' and tempo <= '17:59':
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '3':
         time.sleep(0.8)
@@ -295,8 +353,16 @@ elif tempo > '12:00' and tempo <= '17:59':
         time.sleep(2.0)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '4':
         time.sleep(0.8)
@@ -309,8 +375,16 @@ elif tempo > '12:00' and tempo <= '17:59':
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '5':
         time.sleep(0.8)
@@ -323,8 +397,16 @@ elif tempo > '12:00' and tempo <= '17:59':
         if yes_or_no == 's':
             print('você comprou. você teve a melhor escolha possivel!!! proveite bem.')
             print('volte sempre!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '6':
         time.sleep(0.8)
@@ -474,8 +556,16 @@ else:
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '2':
         time.sleep(0.8)
@@ -488,8 +578,16 @@ else:
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '3':
         time.sleep(0.8)
@@ -502,8 +600,16 @@ else:
         time.sleep(2.0)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '4':
         time.sleep(0.8)
@@ -516,8 +622,16 @@ else:
         time.sleep(2)
         if yes_or_no == 's':
             print('você comprou. tenha um bom usufruimento com a sua nova compra!!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '5':
         time.sleep(0.8)
@@ -530,8 +644,16 @@ else:
         if yes_or_no == 's':
             print('você comprou. você teve a melhor escolha possivel!!! proveite bem.')
             print('volte sempre!')
-        else:
+        elif yes_or_no == 'n':
             print('tudo bem, venha outro dia.')
+            exit()
+        else:
+            print('ERROR 404, escolha apenas s ou n.')
+            time.sleep(0.8)
+            print('TU É BURRO É ??????????????????? S OU CLARO??????')
+            time.sleep(0.8)
+            print('TO INDO DE COMES, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!')
+            time.sleep(0.8)
             exit()
     elif escolha == '6':
         time.sleep(0.8)
